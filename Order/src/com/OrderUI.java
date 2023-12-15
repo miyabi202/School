@@ -15,6 +15,7 @@ import javax.swing.JButton;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import javax.swing.JScrollPane;
+import javax.swing.ButtonGroup;
 
 public class OrderUI extends JFrame {
 
@@ -25,6 +26,7 @@ public class OrderUI extends JFrame {
 	private JTextField mouse;
 	private JTextField name;
     private JCheckBox isMember; // 是會員的核取框
+    private final ButtonGroup buttonGroup = new ButtonGroup();
 
 	/**
 	 * Launch the application.
@@ -106,10 +108,12 @@ public class OrderUI extends JFrame {
 		panel_1.add(lblNewLabel_4);
 		
 		/*JCheckBox chckbxNewCheckBox */isMember= new JCheckBox("是會員");
+buttonGroup.add(isMember);
 		/*chckbxNewCheckBox*/isMember.setBounds(218, 42, 128, 23);
 		panel_1.add(/*chckbxNewCheckBox*/isMember);
 		
 		JCheckBox chckbxNewCheckBox_1 = new JCheckBox("不是會員");
+		buttonGroup.add(chckbxNewCheckBox_1);
 		chckbxNewCheckBox_1.setBounds(218, 70, 128, 23);
 		panel_1.add(chckbxNewCheckBox_1);
 		
