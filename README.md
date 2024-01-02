@@ -5,6 +5,6 @@
 * 使用jframe介面第一次製作單機版買賣軟體
 
 [Google](www.google.com)
-[photo](School/image/javahomework1.png)
-![photo](School/image/javahomework.png)
+[photo](image/javahomework1.png)
+![photo](image/javahomework.png)
   
