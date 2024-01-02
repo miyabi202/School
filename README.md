@@ -6,5 +6,5 @@
 
 [Google](https://www.google.com/)
 [photo](image/javahomework1.png)
-![photo](image/javahomework.png)
+![photo](image/javahomework1.png)
   
